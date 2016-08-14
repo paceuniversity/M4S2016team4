@@ -1,4 +1,43 @@
 <resources>
     <string name="app_name">Taaruna</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_astuces">astuces</string>
+
+    <string name="title_activity_mon_astuce">MonAstuce</string>
+    <string name="bicarbonate_de_soude">\n\t\t\t\t\t\t\t\t\t\t\t\t\tLe bicarbonate de soude\n\n\t\t\t Parmi les produits les plus réputés pour modifier la couleur de nos dents, on trouve le bicarbonate de soude. Associé à un peu de jus de citron, il peut servir de dentifrice. Mais attention de ne pas abuser de cette pratique. Une fois par semaine sera bien suffisent car cette procédure est très abrasive.\n</string>
+    <string name="eau_salee">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tL’eau salée \n\n\t\t\t Il est aussi une solution réputée la plus probante : se faire un bain de bouche avec du gros sel de mer mélangé dans de l’eau tiède. Une méthode à réaliser trois fois par semaine maximum. qui a l’avantage d’être antiseptique et antifongique grâce à sa forte teneur en iode.\n</string>
+
+    <string name="title_activity_mon_astuce2">MonAstuce</string>
+    <string name="huile">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tRecette de démaquillant  à huile\n\n\t\t\t Cette recette est certainement la plus facile et la plus rapide à faire ! Sur un coton humide versez juste une goutte d’huile d’amande douce ou d’huile d’argan.\n</string>
+    <string name="menthe">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tRecette  d’un démaquillant à la menthe\n\n\t\t\t Portez à ébullition un demi litre d’eau dans lequel vous aurez versé le contenu d’une tasse à café de feuilles de menthe fraiche.\n ~~ Laissez infuser un peu plus d’un quart d’heure.\n ~~ Débarrassez-vous des feuilles en versant l’infusion dans une passoire.\n ~~ Ajoutez 5 cuillères à soupe de lait écrémé et enfin versez dans une bouteille en verre.\n ~~ Agitez avant de vous en servir.\n</string>
+    <string name="comment">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tComment se démaquiller\n\n\t\t\t Pour un démaquillage qui élimine le maquillage et les impuretés efficacement appliquez généreusement l’une de ces   démaquillants sur un coton à démaquiller, sur le visage et le cou, en effectuant délicatement des mouvements circulaires et de légers tapotements pour activer la micro circulation.\n</string>
+
+    <string name="title_activity_mon_astuce3">MonAstuce</string>
+    <string name="ingrédients">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tIngrédients\n\n ~~ 300 g de sucre blanc\n ~~ 1 cuillère à café de jus de citron\n ~~ 65 ml de jus de pastèque\n ~~ 1 cuillère à soupe d’huile d’olive\n</string>
+    <string name="préparation">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tPréparation\n\n ~~ Mélangez tous les ingrédients jusqu’à obtenir une mixture homogène.\n ~~ Conservez au réfrigérateur dans un contenant hermétique jusqu’à une semaine.\n ~~ Lorsque vous prenez une douche, prenez une poignée d’exfoliant et frottez doucement sur la peau, rincez abondamment et séchez.\n</string>
+
+    <string name="title_activity_mon_astuce1">MonAstuce</string>
+    <string name="pourquoi_citron">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tPourquoi le citron ?\n\n\t\t\t Déjà pour éclaircir légèrement le teint et SANS HYDROQUINONE, ensuite pour resserrer les pores un peu dilatés.\n</string>
+    <string name="how_use_citron">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tComment procéder ?\n\n ~~ Presser un demi citron bio bien juteux.\n ~~ Filtrer le jus pour retirer la pulpe.\n ~~ Ajouter deux cuillerées à soupe d’eau minérale pour dilluer le tout.\n ~~ Passer avec un coton sur le visage démaquillé.\n ~~ Laisser agir une à deux minutes avant de rincer à l’eau.\n</string>
+
+    <string name="title_activity_mon_astuce4">MonAstuce</string>
+    <string name="pourquoi_concombre">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tPourquoi le lait de concombre ?\n\n\t\t\t Pour  entretenir une hydratation des peaux normales.\n</string>
+    <string name="how_use_concombre">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tComment procéder ?\n\n ~~ Peler et épépiner un quart de concombre puis mixer cela finement.\n ~~ Mélanger une cuillerée à soupe de miel d’acacia avec 25 cl de lait d’amande bio non sucré.\n ~~ Utiliser matin et soir sur le visage démaquillé.\n ~~ Bien rincer après quelques minutes.\n\n  PS:   Ce mélange est à conserver 8 jours  au maximum et au frais.\n</string>
+
+    <string name="title_activity_mon_astuce5">MonAstuce</string>
+    <string name="pourquoi_sel">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tPourquoi le sel ?\n\n\t\t\t Pour gommer la peau, éliminer les peaux mortes et tonifier l’épiderme.\n</string>
+    <string name="how_use_sel">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tComment procéder ?\n\n ~~ Mélanger 100 g de gros sel marin.\n ~~ Ajouter deux cuillerées à soupe d’huile d’olive.\n ~~ Ajouter cinq gouttes d’huile essentielle de lavande ou de citron.\n ~~ Frotter sur la peau mouillée avec des mouvements circulaires.\n ~~ Bien rincer sous la douche.\n</string>
+
+    <string name="title_activity_mon_astuce6">MonAstuce</string>
+    <string name="pourquoi_avocat">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tPourquoi un avocat ?\n\n\t\t\t Ceci est trés efficace pour redonner du soyeux à des cheveux cassants.\n</string>
+    <string name="how_use_avocat">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tComment faire ?\n\n ~~ Mélanger la pulpe d’un avocat bio bien mûr avec un jaune d’œuf.\n ~~ Appliquer sur les cheveux secs.\n ~~ Bien masser pour que ça pénètre.\n ~~ Laisser poser quinze minutes.\n ~~ Puis laver les cheveux normalement.\n</string>
+
+    <string name="title_activity_mon_astuce7">MonAstuce</string>
+    <string name="pourquoi_main">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tPourquoi ?\n\n\t\t\t Sauver des mains sèches et rugueuses, les rendre douces et agréables à toucher\n.</string>
+    <string name="how_use">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tComment faire ?\n\n ~~ Mélanger une cuillerée à soupe de poudre d’argile verte  avec une cuillerée à soupe de bicarbonate de soude.\n ~~ Frotter les deux mains à sec avec ce mélange.\n ~~ Essuyer avec du papier absorbant.\n ~~ Appliquer une crème au beurre de karité\n.</string>
+
+    <string name="title_activity_mon_astuce8">MonAstuce</string>
+    <string name="pourquoi_tomate">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tPourquoi utiliser la tomate ?\n\n\t\t\t Pour réguler les peaux grasses.\n</string>
+    <string name="how_use_tomate">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tComment procéder?\n\n ~~ Découper une tomate bio en fines tranches.\n ~~ Poser celles-ci sur le visage nettoyé, en évitant le contour des yeux.\n ~~ Laisser agir quinze minutes.\n</string>
+
 </resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_mon_astuce"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.js.taaruna.MonAstuceFragment"
+    tools:showIn="@layout/activity_mon_astuce">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/astuce8"
+                android:id="@+id/imageView2"
+                android:background="@android:color/background_light" />
+
+            <TextView
+                android:text="@string/eau_salee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:gravity="bottom"
+             />
+
+
+            <TextView
+                android:text="A défaut, il existe un plan B !!!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_weight="0.03" />
+
+            <TextView
+                android:text="@string/bicarbonate_de_soude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                 />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

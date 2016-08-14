@@ -18,6 +18,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".astuces"
+            android:label="@string/title_activity_astuces"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce"
+            android:label="@string/title_activity_mon_astuce"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce2"
+            android:label="@string/title_activity_mon_astuce2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce3"
+            android:label="@string/title_activity_mon_astuce3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce1"
+            android:label="@string/title_activity_mon_astuce1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce4"
+            android:label="@string/title_activity_mon_astuce4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce5"
+            android:label="@string/title_activity_mon_astuce5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce6"
+            android:label="@string/title_activity_mon_astuce6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce7"
+            android:label="@string/title_activity_mon_astuce7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonAstuce8"
+            android:label="@string/title_activity_mon_astuce8"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
