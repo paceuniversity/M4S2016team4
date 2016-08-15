@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Taaruna</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_soin_dc">Soin Du Corps</string>
+    <string name="title_activity_detail">Description</string>
+    <string name="title_activity_astuces">Astuces</string>
 </resources>
