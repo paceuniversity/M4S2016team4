@@ -114,7 +114,7 @@ public class Detail extends AppCompatActivity {
             case "4": {
                 setTitle("Un soin belle main");
                 texto.loadUrl("file:///android_asset/belle_main.html");
-                imgscv.setImageResource(R.drawable.ventre);
+                imgscv.setImageResource(R.drawable.main);
             }break;
 
 
