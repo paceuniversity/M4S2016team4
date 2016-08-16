@@ -31,17 +31,8 @@ public class AstucesFragment extends Fragment {
 
         ListView lv = (ListView) rootView.findViewById(R.id.listviewlayout);
 
-        /*String[] astuces = {"Un coup d'éclat au citron",
-                            "Un lait au concombre",
-                            "Un gommage au sel",
-                            "Un soin cheveux secs à l'avocat",
-                            "Un soin belle main",
-                            "Un masque à la tomate",
-                            "Un sourire éclatant",
-                            "Démaquillage express",
-                            "Gommage à la pastèque"};*/
 
-        //List<String> Astuce = new ArrayList<String>();
+
         ArrayList<HashMap<String, String>> Astuce = new ArrayList<HashMap<String, String>>();
 
         HashMap<String, String> map;
@@ -144,11 +135,6 @@ public class AstucesFragment extends Fragment {
                 new String[] {"img", "titre", "description"}, new int[] {R.id.img, R.id.titre, R.id.description});
 
 
-
-        /*ArrayAdapter<String> astuceAdapter = new ArrayAdapter<String>(getActivity(),
-                R.layout.textastuceview,
-                R.id.textastuceviewitem,
-                Astuce);*/
 
         lv.setAdapter(astuceAdapter);
 

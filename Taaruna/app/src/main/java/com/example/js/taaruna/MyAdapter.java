@@ -1,6 +1,5 @@
 package com.example.js.taaruna;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -66,8 +65,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
             final String EXTRA_TEXT = "text";
 
-            MyObject myObject = list.get(getAdapterPosition());
-            //System.out.println(myObject.geD                        //Lancement de l'activité scroll viewe Coco" :
+                        MyObject myObject = list.get(getAdapterPosition());
 
                         Intent intent = new Intent(v.getContext(),Detail.class);
                         intent.putExtra(EXTRA_TEXT, myObject.getText().toString());
