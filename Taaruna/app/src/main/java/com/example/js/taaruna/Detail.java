@@ -1,4 +1,4 @@
-﻿package com.example.js.taaruna;
+package com.example.js.taaruna;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -167,7 +167,7 @@ public class Detail extends AppCompatActivity {
 
 
 
-    // Télécharger l'image
+    // Télécharger l'ImageBangui avec AsyncTask
     protected class ChargementImage extends AsyncTask<String, Void, Bitmap> {
 
         @Override
