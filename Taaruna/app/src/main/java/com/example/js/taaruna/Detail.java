@@ -5,15 +5,20 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.net.ConnectivityManager;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.InputStream;
@@ -32,10 +37,22 @@ public class Detail extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         WebView texto=(WebView)findViewById(R.id.texto);
         imgscv = (ImageView) findViewById(R.id.imcol);
         Intent intent = getIntent();
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Intent intent = new Intent(Intent.ACTION_SENDTO);
+                intent.setData(Uri.parse("smsto:"+ Uri.encode("782912730")));
+                intent.putExtra("sms_body","Taaruna à l'écoute :\n");
+                startActivity(intent);
+            }
+        });
+
+
         switch (intent.getStringExtra(EXTRA_TEXT)){
             case "Huile De Coco" :
                 setTitle(intent.getStringExtra(EXTRA_TEXT));
@@ -225,6 +242,8 @@ public class Detail extends AppCompatActivity {
             imgscv.setImageBitmap(result);
             // Fermer la boite de dialogue
             MessProg.dismiss();
+            //Toast Message
+            showToast();
         }
     }
 
@@ -234,6 +253,15 @@ public class Detail extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
 
         return cm.getActiveNetworkInfo() != null && cm.getActiveNetworkInfo().isConnectedOrConnecting();
+    }
+
+    private void showToast(){
+        Toast toast = Toast.makeText(this, "Envoyew nous des questions par SMS,\n" +
+                "en cliquant sur le logo de message", Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.BOTTOM, 0, 0);
+        toast.show();
+
+
     }
 }
 
