@@ -16,7 +16,8 @@ public class MainActivityFragment extends Fragment {
 
 
     private Button butSDC = null;
-    private Button astuce;
+    private Button astuce= null;
+    private Button maquill = null;
 
     public MainActivityFragment() {
     }
@@ -42,6 +43,15 @@ public class MainActivityFragment extends Fragment {
                 Intent intent = new Intent(getActivity(), Astuces.class);
                 startActivity(intent);
 
+            }
+        });
+
+        maquill= (Button) rootView.findViewById(R.id.butMaq);
+        maquill.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Maquillage.class);
+                startActivity(intent);
             }
         });
 

@@ -26,16 +26,17 @@
         <activity
             android:name=".SoinDC"
             android:label="@string/title_activity_soin_dc"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Detail"
             android:label="@string/title_activity_detail"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Astuces"
             android:label="@string/title_activity_astuces"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Maquillage" />
+        <activity android:name=".LecteurYoutubeTaaruna"></activity>
     </application>
 
 </manifest>

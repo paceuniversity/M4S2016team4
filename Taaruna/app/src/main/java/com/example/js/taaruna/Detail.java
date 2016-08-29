@@ -176,6 +176,48 @@ public class Detail extends AppCompatActivity {
                 texto.loadUrl("file:///android_asset/gommage_pasteque.html");
                 new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/master/Images_Taaruna/pasteque.jpg");
             }break;
+
+            case "Fond De Teint Pro" :
+                setTitle(intent.getStringExtra(EXTRA_TEXT));
+                texto.loadUrl("file:///android_asset/poudre.html");
+                new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/d90fbcdffd14ee622aeb99cda8cabe4f91bafabe/Images_Taaruna/poudre.jpg");
+                break;
+
+            case "Masscara" :
+                setTitle(intent.getStringExtra(EXTRA_TEXT));
+                texto.loadUrl("file:///android_asset/mascara.html");
+                new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/d90fbcdffd14ee622aeb99cda8cabe4f91bafabe/Images_Taaruna/mascara.png");
+                break;
+
+            case "Ombre à paupière" :
+                setTitle(intent.getStringExtra(EXTRA_TEXT));
+                texto.loadUrl("file:///android_asset/ombr_paupiere.html");
+                new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/d90fbcdffd14ee622aeb99cda8cabe4f91bafabe/Images_Taaruna/ombre_paupiere.png");
+                break;
+
+            case "Poudre teint parfait" :
+                setTitle(intent.getStringExtra(EXTRA_TEXT));
+                texto.loadUrl("file:///android_asset/fonte.html");
+                new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/d90fbcdffd14ee622aeb99cda8cabe4f91bafabe/Images_Taaruna/fonte.jpg");
+                break;
+
+            case "Floral Gloss" :
+                setTitle(intent.getStringExtra(EXTRA_TEXT));
+                texto.loadUrl("file:///android_asset/gloss.html");
+                new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/d90fbcdffd14ee622aeb99cda8cabe4f91bafabe/Images_Taaruna/lol.jpg");
+                break;
+
+            case "Eyelinner" :
+                setTitle(intent.getStringExtra(EXTRA_TEXT));
+                texto.loadUrl("file:///android_asset/eyeliner.html");
+                new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/d90fbcdffd14ee622aeb99cda8cabe4f91bafabe/Images_Taaruna/eyeliner.jpg");
+                break;
+
+            case "Stick teint parfait" :
+                setTitle(intent.getStringExtra(EXTRA_TEXT));
+                texto.loadUrl("file:///android_asset/fond.html");
+                new ChargementImage().execute("https://raw.githubusercontent.com/paceuniversity/M4S2016team4/d90fbcdffd14ee622aeb99cda8cabe4f91bafabe/Images_Taaruna/fond.png");
+                break;
     }
 
 
@@ -256,7 +298,7 @@ public class Detail extends AppCompatActivity {
     }
 
     private void showToast(){
-        Toast toast = Toast.makeText(this, "Envoyew nous des questions par SMS,\n" +
+        Toast toast = Toast.makeText(this, "Envoyez nous des questions par SMS,\n" +
                 "en cliquant sur le logo de message", Toast.LENGTH_LONG);
         toast.setGravity(Gravity.BOTTOM, 0, 0);
         toast.show();

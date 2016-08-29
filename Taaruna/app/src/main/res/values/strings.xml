@@ -4,4 +4,9 @@
     <string name="title_activity_soin_dc">Soin Du Corps</string>
     <string name="title_activity_detail">Description</string>
     <string name="title_activity_astuces">Astuces</string>
+    <string name="maquillage">MAQUILLAGE</string>
+    <string name="produit">PRODUITS</string>
+    <string name="title_logo">MAQUILLAGE</string>
+    <string name="btn_skip_intro">Retour Vers les Videos</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
 </resources>
