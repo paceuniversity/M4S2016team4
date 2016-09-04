@@ -3,7 +3,7 @@
     <item>
         <shape android:shape="rectangle">
             <!--apply button background transparent, full opacity-->
-            <solid android:color="#65b0d0"/>
+            <solid android:color="#00BCD4"/>
             <!--make button border solid color, nontransparent-->
             <stroke android:color="#65b0d0"
                 android:width="2dp"/>

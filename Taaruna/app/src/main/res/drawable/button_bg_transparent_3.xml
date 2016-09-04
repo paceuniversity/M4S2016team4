@@ -3,9 +3,9 @@
     <item>
         <shape android:shape="rectangle">
             <!--apply button background transparent, full opacity-->
-            <solid android:color="#a6607e2c"/>
+            <solid android:color="#AFB42B"/>
             <!--make button border solid color, nontransparent-->
-            <stroke android:color="#a6607e2c"
+            <stroke android:color="#CDDC39"
                 android:width="2dp"/>
             <corners android:radius="4dp"/>
         </shape>
